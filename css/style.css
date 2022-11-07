@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-  --primary-color: rgba(76,188,212, 0.75);
+  --primary-color: rgba(76,188,212, 0.5);
   --secondary-color: rgba(252,192,132,0.9);
   --overlay-color: rgba(31,111,164,0.90);
   --light-color: rgba(138,180,228,1);
@@ -55,11 +55,25 @@ body {
 }
 
 #showcase h1 {
-  font-size: 4rem;
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 1.2rem;
 }
 
 #showcase p {
   font-size: 1.3rem;
+  text-align: left;
+  font-weight: 700;
+
+}
+
+.highlight {
+  color: var(--dark-color)
+}
+
+.highlight-alt {
+  font-weight: 800;
+  color: var(--secondary-color)
 }
 
 .btn {
@@ -82,6 +96,7 @@ body {
 }
 
 
+/* Footer */
 footer {
   display: flex;
   justify-content: center;
