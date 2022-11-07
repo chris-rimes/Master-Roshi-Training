@@ -92,10 +92,11 @@ footer {
   height: 60px;
   background: var(--secondary-color);
   color: var(--overlay-color);
-  font-size: large;
+  font-size: 1rem;
   text-align: center;
   text-transform: capitalize;
   font-weight: 500;
+  padding: 2rem 0;
 }
 
 small .emoji {
